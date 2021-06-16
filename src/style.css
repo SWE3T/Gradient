@@ -1,37 +1,49 @@
-/* body {
-    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
-} */
+body {
+    background: linear-gradient(90deg, red, purple, purple, blue);
+    background-size: 500% 500%;
+    animation: gradient 5s ease infinite;
+}
 
-.texto {
+.text {
     position: relative;
     display: flex;
     text-align: center;
     top: 50%;
     transform: translate(0px, -50%);
-    font-size: 4rem;
+    font-size: 10vw;
     font-weight: 900;
     font-family: cursive;
     list-style-type: none;
-    background: -webkit-linear-gradient(green, yellow);
-    animation: gradient 10s ease infinite;
     align-content: space-around;
     justify-content: space-evenly;
 }
 
-.first{
-    animation: vibrate 1.5s linear infinite both;
-}
-.second{
-    animation: vibrate 2s linear infinite both;
-}
-.third{
-    animation: vibrate 1s linear infinite both;
+.first {
+    animation: vibrate 1.5s linear infinite both, gradient 10s ease infinite;
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-body {
-    background: linear-gradient(90deg, red, purple, purple, blue);
-    background-size: 500% 500%;
-    animation: gradient 5s ease infinite;
+.second {
+    animation: vibrate 2s linear infinite both, gradient 10s ease infinite;
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.third {
+    animation: vibrate 1s linear infinite both, gradient 10s ease infinite;
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.forth{
+    text-align: center;
+    font-size: 7vw;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 @keyframes gradient {
