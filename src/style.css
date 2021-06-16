@@ -1,3 +1,16 @@
-body{
-    background-color: brown;
+body {
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.texto {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translate(0px, -50%);
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
