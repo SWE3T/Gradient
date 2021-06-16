@@ -7,9 +7,9 @@ body {
     text-align: center;
     top: 50%;
     transform: translate(0px, -50%);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
     background: -webkit-linear-gradient(red, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
